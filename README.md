@@ -1,2 +1,29 @@
-# Rick-Rollol
-Rick Roll
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagine</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            font-size: 3em;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+    <script>
+        setTimeout(function() {
+            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        }, 3000); // 3-second delay
+    </script>
+</head>
+<body>
+    Imagine
+</body>
+</html>
